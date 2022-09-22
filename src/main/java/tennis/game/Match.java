@@ -8,7 +8,7 @@ public class Match {
     public static final String USER_NOT_FOUND_MESSAGE = "There is no player with name ";
 
     private boolean tieBreak;
-    private Game game;
+    private final Game game;
     private Player winner;
 
     public Match(Player player1, Player player2) {

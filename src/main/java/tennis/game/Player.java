@@ -2,7 +2,7 @@ package tennis.game;
 
 public class Player {
 
-	private String name;
+	private final String name;
 	private int gameScore;
 	private int setScore;
 	private int tieBreakScore;
@@ -33,9 +33,6 @@ public class Player {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public int getGameScore() {
 		return gameScore;
